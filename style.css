@@ -258,7 +258,7 @@ span {
     }
 
     .intro-top-left {
-        width: 339px;
+        width: 336px;
     }
 
     h1 {
@@ -273,7 +273,7 @@ span {
 
     .release .pre-order-btn {
         margin-right: 30px;
-        padding: 16px 21px;
+        padding: 16px 19px;
     }
 
     .key-phone-tablet {
@@ -330,3 +330,125 @@ span {
         margin-right: 40px;
     }
 }
+
+/********************************************** Responsive Mobile **********************************************/
+
+    @media (max-width: 767px) {
+
+        .keyboard-img-tablet,
+        .key-glass-tablet,
+        .key-phone-tablet {
+            display: none;
+        }
+
+        .pre-order-btn {
+            padding: 11px 14px;
+        }
+
+        header {
+            margin-bottom: 64px;
+        }
+
+        .intro-top {
+            flex-direction: column;
+            margin-bottom: 24px;
+        }
+
+        .intro-top-left {
+            margin: 0 auto 64px;
+            width: 327px;
+        }
+
+        h1 {
+            margin-bottom: 32px;
+        }
+
+        .release {
+            margin-top: 32px;
+            justify-content: space-between;
+        }
+
+        .release .pre-order-btn {
+            padding: 11px 14px;
+        }
+
+        .keyboard-img-mobile {
+            display: block;
+            max-width: 327px;
+            border-radius: 15px;
+        }
+
+        .intro-bottom {
+            margin-bottom: 111px;
+        }
+
+        .intro-bottom-left {
+            justify-content: end;
+        }
+
+        .key-phone-mobile {
+            display: block;
+            max-width: 129px;
+            mix-blend-mode: multiply;
+            border-radius: 15px;
+        }
+
+        .key-phone {
+            position: absolute;
+            left: -20px;
+            height: fit-content;
+        }
+
+        .key-glass-mobile {
+            display: block;
+            max-width: 220px;
+            border-radius: 15px;
+        }
+
+        .intro-bottom-right {
+            margin: 75px auto 0;
+            width: 327px;
+            flex-direction: column;
+        }
+
+        h2 {
+            width: 194px;
+            text-align: center;
+        }
+
+        .intro-bottom-right p {
+            margin-top: 24px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .box {
+            margin: 64px auto 0;
+            width: 327px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .box:nth-child(1),
+        .box:nth-child(3) {
+            margin: 0 auto;;
+        }
+
+        .box:nth-child(3) {
+            margin-top: 64px;
+        }
+
+        h3 {
+            margin-top: 48px;
+            text-align: center;
+        }
+
+        .box p {
+            text-align: center;
+        }
+
+        .specs {
+            margin-bottom: 96px;
+        }
+    }
